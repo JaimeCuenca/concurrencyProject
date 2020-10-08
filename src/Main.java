@@ -1,4 +1,4 @@
-public class Main {
+public class Main { //hacerlo sin los join
     public static void main(String[] args) {
         try {
             ThreadWithDrawCash t1 = new ThreadWithDrawCash();

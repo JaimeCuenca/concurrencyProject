@@ -11,7 +11,7 @@ public class ThreadWithDrawCash extends Thread{
             cash=cash-180;
             FakeDB.cash=cash;
             sleep(tiempoSleep);
-            System.out.println("Su saldo actual despùés de retirar 180€ es: " + FakeDB.cash);
+            System.out.println("Su saldo actual después de retirar 180€ es: " + FakeDB.cash);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

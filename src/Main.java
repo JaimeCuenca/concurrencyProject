@@ -11,7 +11,7 @@ public class Main { //hacerlo sin los join
             t3.start();
             t3.join();
         }catch (InterruptedException e){
-            e.getMessage();
+            System.out.println("error");
         }
     }
 }
